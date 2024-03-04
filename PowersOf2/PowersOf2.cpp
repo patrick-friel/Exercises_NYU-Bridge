@@ -13,7 +13,7 @@ int main() {
     cout << "Using while" << endl;
     lineCount = 1;
     while (lineCount <= n) {
-        powerOf2 = pow(2, lineCount - 1);
+        powerOf2 = pow(2,lineCount - 1);
         cout << lineCount << ". " << powerOf2 << endl;
         lineCount += 1;
     }
